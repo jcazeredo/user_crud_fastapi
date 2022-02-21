@@ -20,12 +20,12 @@ git clone https://github.com/jcazeredo/user_mgmt_fastapi.git
 cd user_mgmt_fastapi
 ```
 
-Install required Python libraries.
+Install required Python libraries:
 ```
 pip install -r requirements.txt
 ```
 
-Now you can run the following command.
+Now you can run the following command:
 ```
 uvicorn app.main:app
 ```
